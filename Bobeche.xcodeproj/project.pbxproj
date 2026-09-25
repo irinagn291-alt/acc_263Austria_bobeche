@@ -1,0 +1,853 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		041C310D8480BE1AD0A58C34 /* WickHook.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD370D5D180E44E5BBFC66B3 /* WickHook.swift */; };
+		0BC61F3D8DDA3AE4F2470D55 /* WickSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12B3BC5D0531BF70771B7B9 /* WickSettings.swift */; };
+		0EB026A9E3858874ED786953 /* WickLineSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978E8D8206381568609F8B8A /* WickLineSheet.swift */; };
+		14351D4F6931A115C959073D /* WickFace.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F86E3A25820D395A3F0100 /* WickFace.swift */; };
+		192A0AC6A4BDE0C31801F166 /* TaperHold.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79FC0D2E92AA9C5CEEA6262C /* TaperHold.swift */; };
+		1E2879C37090A85E119FE766 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DCFA02B7BA430933FF0FCB0 /* Assets.xcassets */; };
+		22554533993F6A89C6123F3D /* NightMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4145CE13BFF5ABA3D88711DD /* NightMark.swift */; };
+		2422E8731920DE400AEA3057 /* OneSignalNotificationServiceExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 6EDE36C553A876E1852E902A /* OneSignalNotificationServiceExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		37AFBBFA58D79655B7951449 /* TaperStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B90552D1F327E1A17386857 /* TaperStore.swift */; };
+		38AEFA02411E3039577D9788 /* TaperStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1790A2EB2301BDA26212B7 /* TaperStoreTests.swift */; };
+		3C27EE5D9D15941EC90C48C0 /* TaperLedger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9127C8EEBB78BBB241FB49AB /* TaperLedger.swift */; };
+		3F1DD224F6987A2AFF97B093 /* ChamberStem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B62BDB06E1E416C986668713 /* ChamberStem.swift */; };
+		42F3783443DD6332B9C27423 /* OneSignalFramework in Frameworks */ = {isa = PBXBuildFile; productRef = 6503625BA4C1E944DE27F831 /* OneSignalFramework */; };
+		538D344EC4629E58A263E2FD /* WickInk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E740BDEB111FAAC0A1A049 /* WickInk.swift */; };
+		5ABF83825FC8C7825A926824 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C989C7B552CF7858A2AF4B /* AppDelegate.swift */; };
+		5E5D5CAA47B648F537681E1F /* TaperClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78768ECAAEEC285AE247407 /* TaperClient.swift */; };
+		5ED6A4D50CDB21C4FAE9D25C /* BobecheApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96769033BA29E37772AF4AFB /* BobecheApp.swift */; };
+		61D634137711E441FE950ED3 /* WickChrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B353BF31448FB0B735B3391 /* WickChrome.swift */; };
+		65A4E8C8473980F0E3D949A8 /* OneSignalExtension in Frameworks */ = {isa = PBXBuildFile; productRef = 75FC52095E649B22CD11733E /* OneSignalExtension */; };
+		6CBDFECA284592CD72F7ED5A /* RitualPane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55951FDDFC2F3931298B535D /* RitualPane.swift */; };
+		7334CDF0636388562FCFA044 /* WickWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC39D17DD148B0813CEF17AE /* WickWatch.swift */; };
+		742B318D82D6C50A05490219 /* CueSnuffPane.swift in Sources */ = {isa = PBXBuildFile; fileRef = D537D4897E9381BBB7E564DD /* CueSnuffPane.swift */; };
+		7680C2CD09FD7065458A3281 /* WickOnboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6E871C84DBC9D4C2872E86 /* WickOnboard.swift */; };
+		7716F7AC8E10E8A8609B5DCC /* Cue.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13A61B924A6E94CFE3B87DE /* Cue.swift */; };
+		86B64C2B76A626AE03A16158 /* APIConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987641D6B2F653728B005AA7 /* APIConfig.swift */; };
+		901CBB16B600AD147ED8E697 /* FiledPane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C524C14DFCFFF680832E89 /* FiledPane.swift */; };
+		9CA8850AC5A996423BCBA327 /* FamilyInvariantTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30A41E5CBC5693B768146B7 /* FamilyInvariantTests.swift */; };
+		9CCADD525776AAE6550E794C /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = D474768F2FC35D2D89D69833 /* Alamofire */; };
+		A54C15B4889133790FB414FE /* Chamber.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2579FA05C748D5AC72B9B61 /* Chamber.swift */; };
+		AE71BBB712B023BEF41AA01A /* TaperClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1516CBB82B8DFE42E5152140 /* TaperClientTests.swift */; };
+		AFC5A908301B8E96990FDD17 /* WickHookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3EA71D83D56BDB04F79AA2 /* WickHookTests.swift */; };
+		C688181B19876AC6893D6D7B /* BobecheTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D665C8FB2BC081BB2941B5A9 /* BobecheTests.swift */; };
+		CE477D4CC6C07AF2C14BCBCB /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33DD65B2EEB019E3DEC26F9A /* NotificationService.swift */; };
+		DD7078BD244D5D12A1A99FA2 /* TaperFoldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0888A9622A28D60770302AD7 /* TaperFoldTests.swift */; };
+		E0B90E4C9248F22A0411F6E4 /* WickCanvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089EE201329D7522EE925994 /* WickCanvas.swift */; };
+		E5A5979415F0D16299C823DE /* WickPlate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A750E78829FD0BE1327679BF /* WickPlate.swift */; };
+		E5A7C747854C6FF46228FF5E /* TaperSeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BECD8EF335B63BB13E8C1AC /* TaperSeed.swift */; };
+		EA92C1C9EFC18B4D770B6919 /* WickFigures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17310C0D4437C6D1EC364347 /* WickFigures.swift */; };
+		EA9D22416C21F089D77E93AD /* OneSignalInAppMessages in Frameworks */ = {isa = PBXBuildFile; productRef = 14E5A16A2C8F8CBBB46049FE /* OneSignalInAppMessages */; };
+		EC579ABFE4C26A080D548FDB /* TaperCodec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F8DD634657DEB2397510D4 /* TaperCodec.swift */; };
+		ECA99AA9245B1BA81695D68D /* Taper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306067B4B9CBEC46BCBFD4B5 /* Taper.swift */; };
+		EE792F21AAB1A4BB06ED0CEE /* Latch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21551DCD5068B63E21F95FA3 /* Latch.swift */; };
+		F05D67B716739E6916E7AB38 /* Hollow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0189B4CCC17EC426363606 /* Hollow.swift */; };
+		F4A0F15260F898363394DCA3 /* WickDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8FC2CB5482750579715B481 /* WickDay.swift */; };
+		F56A1296C01748C1E233346C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9562B9F53C0962AD47FB4D9 /* ContentView.swift */; };
+		F9980E357F9960C524266E37 /* WickWatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184B850E4F0DDF6FDEE3402B /* WickWatchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B24801C31F79C52114FE6399 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A9A1EAC57C9538B26704788 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24FA3E9074B3E4FC1B78D7A2;
+			remoteInfo = OneSignalNotificationServiceExtension;
+		};
+		C08716142F465C22BD936A22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A9A1EAC57C9538B26704788 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BAC4451AB557EFF9003A820A;
+			remoteInfo = Bobeche;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C535BF0D527B18F01546BD55 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				2422E8731920DE400AEA3057 /* OneSignalNotificationServiceExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		07C524C14DFCFFF680832E89 /* FiledPane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiledPane.swift; sourceTree = "<group>"; };
+		0888A9622A28D60770302AD7 /* TaperFoldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaperFoldTests.swift; sourceTree = "<group>"; };
+		089EE201329D7522EE925994 /* WickCanvas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WickCanvas.swift; sourceTree = "<group>"; };
+		0B353BF31448FB0B735B3391 /* WickChrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WickChrome.swift; sourceTree = "<group>"; };
+		0C1790A2EB2301BDA26212B7 /* TaperStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaperStoreTests.swift; sourceTree = "<group>"; };
+		0DCFA02B7BA430933FF0FCB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1516CBB82B8DFE42E5152140 /* TaperClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaperClientTests.swift; sourceTree = "<group>"; };
+		17310C0D4437C6D1EC364347 /* WickFigures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WickFigures.swift; sourceTree = "<group>"; };
+		184B850E4F0DDF6FDEE3402B /* WickWatchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WickWatchTests.swift; sourceTree = "<group>"; };
+		20E740BDEB111FAAC0A1A049 /* WickInk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WickInk.swift; sourceTree = "<group>"; };
+		21551DCD5068B63E21F95FA3 /* Latch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Latch.swift; sourceTree = "<group>"; };
+		2B90552D1F327E1A17386857 /* TaperStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaperStore.swift; sourceTree = "<group>"; };
+		2D6E871C84DBC9D4C2872E86 /* WickOnboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WickOnboard.swift; sourceTree = "<group>"; };
+		306067B4B9CBEC46BCBFD4B5 /* Taper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Taper.swift; sourceTree = "<group>"; };
+		33DD65B2EEB019E3DEC26F9A /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		4145CE13BFF5ABA3D88711DD /* NightMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NightMark.swift; sourceTree = "<group>"; };
+		4A40E6D4629BDD3C92F28A1F /* BobecheTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = BobecheTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		55951FDDFC2F3931298B535D /* RitualPane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RitualPane.swift; sourceTree = "<group>"; };
+		6EDE36C553A876E1852E902A /* OneSignalNotificationServiceExtension.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; path = OneSignalNotificationServiceExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		79FC0D2E92AA9C5CEEA6262C /* TaperHold.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaperHold.swift; sourceTree = "<group>"; };
+		8BECD8EF335B63BB13E8C1AC /* TaperSeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaperSeed.swift; sourceTree = "<group>"; };
+		8E3EA71D83D56BDB04F79AA2 /* WickHookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WickHookTests.swift; sourceTree = "<group>"; };
+		9007476BFFAD3C52B3D8EEE6 /* Bobeche.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Bobeche.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9127C8EEBB78BBB241FB49AB /* TaperLedger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaperLedger.swift; sourceTree = "<group>"; };
+		91F8DD634657DEB2397510D4 /* TaperCodec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaperCodec.swift; sourceTree = "<group>"; };
+		96769033BA29E37772AF4AFB /* BobecheApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BobecheApp.swift; sourceTree = "<group>"; };
+		978E8D8206381568609F8B8A /* WickLineSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WickLineSheet.swift; sourceTree = "<group>"; };
+		987641D6B2F653728B005AA7 /* APIConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConfig.swift; sourceTree = "<group>"; };
+		9B0189B4CCC17EC426363606 /* Hollow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hollow.swift; sourceTree = "<group>"; };
+		A13A61B924A6E94CFE3B87DE /* Cue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cue.swift; sourceTree = "<group>"; };
+		A750E78829FD0BE1327679BF /* WickPlate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WickPlate.swift; sourceTree = "<group>"; };
+		A9F86E3A25820D395A3F0100 /* WickFace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WickFace.swift; sourceTree = "<group>"; };
+		AD370D5D180E44E5BBFC66B3 /* WickHook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WickHook.swift; sourceTree = "<group>"; };
+		B30A41E5CBC5693B768146B7 /* FamilyInvariantTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilyInvariantTests.swift; sourceTree = "<group>"; };
+		B62BDB06E1E416C986668713 /* ChamberStem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChamberStem.swift; sourceTree = "<group>"; };
+		C9C989C7B552CF7858A2AF4B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CC39D17DD148B0813CEF17AE /* WickWatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WickWatch.swift; sourceTree = "<group>"; };
+		D537D4897E9381BBB7E564DD /* CueSnuffPane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CueSnuffPane.swift; sourceTree = "<group>"; };
+		D665C8FB2BC081BB2941B5A9 /* BobecheTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BobecheTests.swift; sourceTree = "<group>"; };
+		E78768ECAAEEC285AE247407 /* TaperClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaperClient.swift; sourceTree = "<group>"; };
+		E9562B9F53C0962AD47FB4D9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F12B3BC5D0531BF70771B7B9 /* WickSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WickSettings.swift; sourceTree = "<group>"; };
+		F2579FA05C748D5AC72B9B61 /* Chamber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chamber.swift; sourceTree = "<group>"; };
+		F8FC2CB5482750579715B481 /* WickDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WickDay.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		601528E26C3630A9DE673EA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CCADD525776AAE6550E794C /* Alamofire in Frameworks */,
+				42F3783443DD6332B9C27423 /* OneSignalFramework in Frameworks */,
+				EA9D22416C21F089D77E93AD /* OneSignalInAppMessages in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6615AD51117487323DEB967 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65A4E8C8473980F0E3D949A8 /* OneSignalExtension in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F873E780DF1BD11E3E0C962 /* OneSignalNotificationServiceExtension */ = {
+			isa = PBXGroup;
+			children = (
+				33DD65B2EEB019E3DEC26F9A /* NotificationService.swift */,
+			);
+			path = OneSignalNotificationServiceExtension;
+			sourceTree = "<group>";
+		};
+		0FDAA00EFF8076C8E7FB8E37 /* Bobeche */ = {
+			isa = PBXGroup;
+			children = (
+				987641D6B2F653728B005AA7 /* APIConfig.swift */,
+				C9C989C7B552CF7858A2AF4B /* AppDelegate.swift */,
+				0DCFA02B7BA430933FF0FCB0 /* Assets.xcassets */,
+				96769033BA29E37772AF4AFB /* BobecheApp.swift */,
+				E9562B9F53C0962AD47FB4D9 /* ContentView.swift */,
+				91C1F1E6D7E23AAF52011517 /* Chamber */,
+				F76C759D59C27FB41BE1FB97 /* Cue */,
+				EC7FB2F666E008CFDC044BE5 /* Hollow */,
+				2B118E4668D7ECC54109B04D /* Latch */,
+				9E255325F8BBF6DC1A23BDB5 /* NightMark */,
+				44843FC093BA74095BDC249F /* Taper */,
+			);
+			path = Bobeche;
+			sourceTree = "<group>";
+		};
+		2B118E4668D7ECC54109B04D /* Latch */ = {
+			isa = PBXGroup;
+			children = (
+				21551DCD5068B63E21F95FA3 /* Latch.swift */,
+			);
+			path = Latch;
+			sourceTree = "<group>";
+		};
+		44843FC093BA74095BDC249F /* Taper */ = {
+			isa = PBXGroup;
+			children = (
+				55951FDDFC2F3931298B535D /* RitualPane.swift */,
+				306067B4B9CBEC46BCBFD4B5 /* Taper.swift */,
+				E78768ECAAEEC285AE247407 /* TaperClient.swift */,
+				91F8DD634657DEB2397510D4 /* TaperCodec.swift */,
+				79FC0D2E92AA9C5CEEA6262C /* TaperHold.swift */,
+				9127C8EEBB78BBB241FB49AB /* TaperLedger.swift */,
+				8BECD8EF335B63BB13E8C1AC /* TaperSeed.swift */,
+				2B90552D1F327E1A17386857 /* TaperStore.swift */,
+				089EE201329D7522EE925994 /* WickCanvas.swift */,
+				F8FC2CB5482750579715B481 /* WickDay.swift */,
+				A9F86E3A25820D395A3F0100 /* WickFace.swift */,
+				17310C0D4437C6D1EC364347 /* WickFigures.swift */,
+				20E740BDEB111FAAC0A1A049 /* WickInk.swift */,
+				A750E78829FD0BE1327679BF /* WickPlate.swift */,
+				F12B3BC5D0531BF70771B7B9 /* WickSettings.swift */,
+				CC39D17DD148B0813CEF17AE /* WickWatch.swift */,
+			);
+			path = Taper;
+			sourceTree = "<group>";
+		};
+		4AA495515C61FCA46B82D174 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9007476BFFAD3C52B3D8EEE6 /* Bobeche.app */,
+				4A40E6D4629BDD3C92F28A1F /* BobecheTests.xctest */,
+				6EDE36C553A876E1852E902A /* OneSignalNotificationServiceExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		91C1F1E6D7E23AAF52011517 /* Chamber */ = {
+			isa = PBXGroup;
+			children = (
+				F2579FA05C748D5AC72B9B61 /* Chamber.swift */,
+				B62BDB06E1E416C986668713 /* ChamberStem.swift */,
+			);
+			path = Chamber;
+			sourceTree = "<group>";
+		};
+		9E255325F8BBF6DC1A23BDB5 /* NightMark */ = {
+			isa = PBXGroup;
+			children = (
+				07C524C14DFCFFF680832E89 /* FiledPane.swift */,
+				4145CE13BFF5ABA3D88711DD /* NightMark.swift */,
+			);
+			path = NightMark;
+			sourceTree = "<group>";
+		};
+		EC7FB2F666E008CFDC044BE5 /* Hollow */ = {
+			isa = PBXGroup;
+			children = (
+				9B0189B4CCC17EC426363606 /* Hollow.swift */,
+			);
+			path = Hollow;
+			sourceTree = "<group>";
+		};
+		F76C759D59C27FB41BE1FB97 /* Cue */ = {
+			isa = PBXGroup;
+			children = (
+				A13A61B924A6E94CFE3B87DE /* Cue.swift */,
+				D537D4897E9381BBB7E564DD /* CueSnuffPane.swift */,
+				0B353BF31448FB0B735B3391 /* WickChrome.swift */,
+				AD370D5D180E44E5BBFC66B3 /* WickHook.swift */,
+				978E8D8206381568609F8B8A /* WickLineSheet.swift */,
+				2D6E871C84DBC9D4C2872E86 /* WickOnboard.swift */,
+			);
+			path = Cue;
+			sourceTree = "<group>";
+		};
+		F7779E55AAA1730C296F6460 = {
+			isa = PBXGroup;
+			children = (
+				0FDAA00EFF8076C8E7FB8E37 /* Bobeche */,
+				FE835048867939F470ED7DE2 /* BobecheTests */,
+				0F873E780DF1BD11E3E0C962 /* OneSignalNotificationServiceExtension */,
+				4AA495515C61FCA46B82D174 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FE835048867939F470ED7DE2 /* BobecheTests */ = {
+			isa = PBXGroup;
+			children = (
+				D665C8FB2BC081BB2941B5A9 /* BobecheTests.swift */,
+				B30A41E5CBC5693B768146B7 /* FamilyInvariantTests.swift */,
+				1516CBB82B8DFE42E5152140 /* TaperClientTests.swift */,
+				0888A9622A28D60770302AD7 /* TaperFoldTests.swift */,
+				0C1790A2EB2301BDA26212B7 /* TaperStoreTests.swift */,
+				8E3EA71D83D56BDB04F79AA2 /* WickHookTests.swift */,
+				184B850E4F0DDF6FDEE3402B /* WickWatchTests.swift */,
+			);
+			path = BobecheTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		24FA3E9074B3E4FC1B78D7A2 /* OneSignalNotificationServiceExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 754EE481A479E2E2D64835D3 /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */;
+			buildPhases = (
+				D62C9BD2EEDBB0777658C9F4 /* Sources */,
+				C6615AD51117487323DEB967 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OneSignalNotificationServiceExtension;
+			packageProductDependencies = (
+				75FC52095E649B22CD11733E /* OneSignalExtension */,
+			);
+			productName = OneSignalNotificationServiceExtension;
+			productReference = 6EDE36C553A876E1852E902A /* OneSignalNotificationServiceExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		BAC4451AB557EFF9003A820A /* Bobeche */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7A8BB03EA63EF0728CA3A95 /* Build configuration list for PBXNativeTarget "Bobeche" */;
+			buildPhases = (
+				065975C1BE85ECA87DAC8FCC /* Sources */,
+				6D7016D9B88F1122C1906133 /* Resources */,
+				601528E26C3630A9DE673EA0 /* Frameworks */,
+				C535BF0D527B18F01546BD55 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				873DDEB8B447A55652622614 /* PBXTargetDependency */,
+			);
+			name = Bobeche;
+			packageProductDependencies = (
+				D474768F2FC35D2D89D69833 /* Alamofire */,
+				6503625BA4C1E944DE27F831 /* OneSignalFramework */,
+				14E5A16A2C8F8CBBB46049FE /* OneSignalInAppMessages */,
+			);
+			productName = Bobeche;
+			productReference = 9007476BFFAD3C52B3D8EEE6 /* Bobeche.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C19D6562B063B6C4580334FE /* BobecheTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85581A723D2D5ABCC6F3BA4C /* Build configuration list for PBXNativeTarget "BobecheTests" */;
+			buildPhases = (
+				4D0B225C574B04288313F1B2 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7BD7683EB6330F267670D9BE /* PBXTargetDependency */,
+			);
+			name = BobecheTests;
+			packageProductDependencies = (
+			);
+			productName = BobecheTests;
+			productReference = 4A40E6D4629BDD3C92F28A1F /* BobecheTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A9A1EAC57C9538B26704788 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					24FA3E9074B3E4FC1B78D7A2 = {
+						ProvisioningStyle = Automatic;
+					};
+					BAC4451AB557EFF9003A820A = {
+						ProvisioningStyle = Automatic;
+					};
+					C19D6562B063B6C4580334FE = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8A385BC7F504DE315BA7407B /* Build configuration list for PBXProject "Bobeche" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = F7779E55AAA1730C296F6460;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				75215A4B653EA3D21D99496E /* XCRemoteSwiftPackageReference "Alamofire" */,
+				9F1293B7E7788BF09687214F /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 4AA495515C61FCA46B82D174 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BAC4451AB557EFF9003A820A /* Bobeche */,
+				C19D6562B063B6C4580334FE /* BobecheTests */,
+				24FA3E9074B3E4FC1B78D7A2 /* OneSignalNotificationServiceExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6D7016D9B88F1122C1906133 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E2879C37090A85E119FE766 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		065975C1BE85ECA87DAC8FCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86B64C2B76A626AE03A16158 /* APIConfig.swift in Sources */,
+				5ABF83825FC8C7825A926824 /* AppDelegate.swift in Sources */,
+				5ED6A4D50CDB21C4FAE9D25C /* BobecheApp.swift in Sources */,
+				A54C15B4889133790FB414FE /* Chamber.swift in Sources */,
+				3F1DD224F6987A2AFF97B093 /* ChamberStem.swift in Sources */,
+				F56A1296C01748C1E233346C /* ContentView.swift in Sources */,
+				7716F7AC8E10E8A8609B5DCC /* Cue.swift in Sources */,
+				742B318D82D6C50A05490219 /* CueSnuffPane.swift in Sources */,
+				901CBB16B600AD147ED8E697 /* FiledPane.swift in Sources */,
+				F05D67B716739E6916E7AB38 /* Hollow.swift in Sources */,
+				EE792F21AAB1A4BB06ED0CEE /* Latch.swift in Sources */,
+				22554533993F6A89C6123F3D /* NightMark.swift in Sources */,
+				6CBDFECA284592CD72F7ED5A /* RitualPane.swift in Sources */,
+				ECA99AA9245B1BA81695D68D /* Taper.swift in Sources */,
+				5E5D5CAA47B648F537681E1F /* TaperClient.swift in Sources */,
+				EC579ABFE4C26A080D548FDB /* TaperCodec.swift in Sources */,
+				192A0AC6A4BDE0C31801F166 /* TaperHold.swift in Sources */,
+				3C27EE5D9D15941EC90C48C0 /* TaperLedger.swift in Sources */,
+				E5A7C747854C6FF46228FF5E /* TaperSeed.swift in Sources */,
+				37AFBBFA58D79655B7951449 /* TaperStore.swift in Sources */,
+				E0B90E4C9248F22A0411F6E4 /* WickCanvas.swift in Sources */,
+				61D634137711E441FE950ED3 /* WickChrome.swift in Sources */,
+				F4A0F15260F898363394DCA3 /* WickDay.swift in Sources */,
+				14351D4F6931A115C959073D /* WickFace.swift in Sources */,
+				EA92C1C9EFC18B4D770B6919 /* WickFigures.swift in Sources */,
+				041C310D8480BE1AD0A58C34 /* WickHook.swift in Sources */,
+				538D344EC4629E58A263E2FD /* WickInk.swift in Sources */,
+				0EB026A9E3858874ED786953 /* WickLineSheet.swift in Sources */,
+				7680C2CD09FD7065458A3281 /* WickOnboard.swift in Sources */,
+				E5A5979415F0D16299C823DE /* WickPlate.swift in Sources */,
+				0BC61F3D8DDA3AE4F2470D55 /* WickSettings.swift in Sources */,
+				7334CDF0636388562FCFA044 /* WickWatch.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D0B225C574B04288313F1B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C688181B19876AC6893D6D7B /* BobecheTests.swift in Sources */,
+				9CA8850AC5A996423BCBA327 /* FamilyInvariantTests.swift in Sources */,
+				AE71BBB712B023BEF41AA01A /* TaperClientTests.swift in Sources */,
+				DD7078BD244D5D12A1A99FA2 /* TaperFoldTests.swift in Sources */,
+				38AEFA02411E3039577D9788 /* TaperStoreTests.swift in Sources */,
+				AFC5A908301B8E96990FDD17 /* WickHookTests.swift in Sources */,
+				F9980E357F9960C524266E37 /* WickWatchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D62C9BD2EEDBB0777658C9F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE477D4CC6C07AF2C14BCBCB /* NotificationService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7BD7683EB6330F267670D9BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BAC4451AB557EFF9003A820A /* Bobeche */;
+			targetProxy = C08716142F465C22BD936A22 /* PBXContainerItemProxy */;
+		};
+		873DDEB8B447A55652622614 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 24FA3E9074B3E4FC1B78D7A2 /* OneSignalNotificationServiceExtension */;
+			targetProxy = B24801C31F79C52114FE6399 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		06555A72615D79C38861AFC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Support/Bobeche.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Support/Bobeche-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Bobeche;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app does not use the camera.";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bobeche.wick;
+				PRODUCT_NAME = Bobeche;
+				SDKROOT = iphoneos;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1447B7A9618A0FFB575441B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bobeche.wick.tests;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bobeche.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Bobeche";
+			};
+			name = Debug;
+		};
+		2F2B520966DCAD6F37608627 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Support/OneSignalNotificationServiceExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Support/OneSignalNotificationServiceExtension-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = OneSignalNotificationServiceExtension;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bobeche.wick.OneSignalNotificationServiceExtension;
+				PRODUCT_NAME = OneSignalNotificationServiceExtension;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3D260A935EDFADEC207B4818 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+			};
+			name = Debug;
+		};
+		4B1AF78525C1A6ED149EA6C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bobeche.wick.tests;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bobeche.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Bobeche";
+			};
+			name = Release;
+		};
+		61D44BCAA786A2605FE97074 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Support/OneSignalNotificationServiceExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Support/OneSignalNotificationServiceExtension-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = OneSignalNotificationServiceExtension;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bobeche.wick.OneSignalNotificationServiceExtension;
+				PRODUCT_NAME = OneSignalNotificationServiceExtension;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7658CDFA858134B73453CB91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Support/Bobeche.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Support/Bobeche-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Bobeche;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app does not use the camera.";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bobeche.wick;
+				PRODUCT_NAME = Bobeche;
+				SDKROOT = iphoneos;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8489CFE8D8B2AB5AE0B1E4B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		754EE481A479E2E2D64835D3 /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F2B520966DCAD6F37608627 /* Debug */,
+				61D44BCAA786A2605FE97074 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		85581A723D2D5ABCC6F3BA4C /* Build configuration list for PBXNativeTarget "BobecheTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1447B7A9618A0FFB575441B7 /* Debug */,
+				4B1AF78525C1A6ED149EA6C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8A385BC7F504DE315BA7407B /* Build configuration list for PBXProject "Bobeche" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D260A935EDFADEC207B4818 /* Debug */,
+				8489CFE8D8B2AB5AE0B1E4B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D7A8BB03EA63EF0728CA3A95 /* Build configuration list for PBXNativeTarget "Bobeche" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7658CDFA858134B73453CB91 /* Debug */,
+				06555A72615D79C38861AFC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		75215A4B653EA3D21D99496E /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/srfcsthpvf-prog/Alamofire";
+			requirement = {
+				kind = revision;
+				revision = f4801b9f61363a74beb39cd962192b3956e34a92;
+			};
+		};
+		9F1293B7E7788BF09687214F /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/OneSignal/OneSignal-XCFramework";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		14E5A16A2C8F8CBBB46049FE /* OneSignalInAppMessages */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9F1293B7E7788BF09687214F /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */;
+			productName = OneSignalInAppMessages;
+		};
+		6503625BA4C1E944DE27F831 /* OneSignalFramework */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9F1293B7E7788BF09687214F /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */;
+			productName = OneSignalFramework;
+		};
+		75FC52095E649B22CD11733E /* OneSignalExtension */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9F1293B7E7788BF09687214F /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */;
+			productName = OneSignalExtension;
+		};
+		D474768F2FC35D2D89D69833 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 75215A4B653EA3D21D99496E /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 4A9A1EAC57C9538B26704788 /* Project object */;
+}

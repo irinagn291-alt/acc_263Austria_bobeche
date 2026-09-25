@@ -1,0 +1,15 @@
+On cold launch the system may show the standard notifications permission alert. There is no custom notifications usage-description string in the build settings. A Camera usage description is present — This app does not use the camera. — but the native UI never requests camera access.
+
+There is no login, no in-app purchase, no account deletion flow, and no App Tracking Transparency prompt.
+
+Bobeche is a dark, portrait evening ritual for people who want a short wind-down before sleep. You light tonight's taper, sit through Reflect, Breathe, and Ambient (or Skip), then Snuff to file a NightMark and keep a streak of consecutive NightMark days.
+
+No credentials or demo account are needed. From a cold launch, a brief loading state may appear, then the main shell with the Taper segmented control: Ritual, History, Settings. If onboarding is not finished, a full-screen cover appears and cannot be dismissed by gesture. Page 1 title Walk tonight's taper, body Light the wick. Reflect, then Breathe, then Ambient., with Next and Skip. Page 2 title Cue, Skip, Snuff, body Cue latches a chamber when it is due. Skip writes a Hollow and walks on., with Next and Skip. Page 3 title File the night, body Snuff files a NightMark. History counts nights, not hours slept., with Continue and Skip. Next advances the page; Continue or Skip finishes onboarding and lands on Ritual. On Ritual, if empty, tap Light the taper under Build tonight's rite. Use Cue when Due to latch Reflect, then Breathe, then Ambient, or Skip to write a Hollow. When the title is Snuff the taper and Tonight is Ready, tap Snuff (Files tonight) to file a NightMark. When allowed, Write Line opens for one line on Reflect. Open Cue then Snuff from the chip or from Settings (How the walk files a night). History shows Consecutive NightMark days plus NightMarks, Latches, and Hollows. Settings includes Contact, Re-run onboarding, and Reset all data (Erase nights on this device); confirmation title Erase all nights? with Erase all nights or Keep.
+
+NightMarks, Latches, Hollows, Unlits, and the Reflect line stay on this device. Support is via Contact in Settings.
+
+There is no special region gate; dates use the device locale.
+
+No licence or regulated-industry paperwork applies. Chambers are a personal evening walk, not a health score, and the app makes no medical, clinical, or product-health claims.
+
+The app is a personal log only and gives no recommendations.

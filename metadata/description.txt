@@ -1,0 +1,15 @@
+Bobeche is a dark, portrait evening ritual for people who want a short wind-down before sleep. You light tonight's taper, sit through Reflect, Breathe, and Ambient (or Skip), then Snuff to file a NightMark and keep a streak of consecutive NightMark days.
+
+• Segmented Ritual, History, and Settings taper shell
+• Light tonight's taper and walk Reflect, then Breathe, then Ambient
+• Timed Cue (Latch) versus immediate Skip (Hollow)
+• Snuff to file a NightMark when Ready, or Unlit when still Dark
+• Streak of consecutive NightMark days (Unlit does not streak)
+• Optional one-line note on Reflect via Write Line
+• Cue then Snuff explainer sheet
+• Onboarding with Next, Continue, and Skip; Re-run onboarding from Settings
+• Contact support link
+• Reset all data with confirmation
+• Local history of NightMarks, Latches, Hollows, and Unlits
+
+NightMarks, Latches, Hollows, Unlits, and the Reflect line stay on this device.
